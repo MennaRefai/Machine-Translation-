@@ -1,4 +1,3 @@
 # Machine-Translation-
-End-to-end English-to-Arabic translation mobile app with custom UI/UX. Trained LSTM Seq2Seq on datasets as baseline, then integrated pre-trained Transformer for higher accuracy, deployed via FastAPI, and built fully localized mobile app
-
+Built a customized mobile application for English-to-Arabic translation with Modifying custom UI/UX design. Preprocessed data using tokenization and one-hot encoding, trained an LSTM-based Seq2Seq model achieving 94% accuracy and 0.20 loss on training, with 71% validation accuracy. To improve accuracy, integrated a pre-trained Transformer model, which delivered significantly better translation quality. Deployed the Transformer model as a RESTful API using FastAPI for real-time inference. Built a fully localized mobile application connected to the backend for seamless English-to-Arabic translation
 <img width="366" height="794" alt="image" src="https://github.com/user-attachments/assets/07c4aa7d-89a6-467e-9bf5-1a5719ddc66d" />
